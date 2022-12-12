@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border: none;
+    background-color: rgb(243, 207, 159);
+    color: black;
+    border-radius: 10px;
+}
+
+nav {
+    border: none;
+    background-color: rgb(236, 177, 100);
+    color: black;
+    border-radius: 10px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: rgb(215, 138, 6);
+    border-radius: 20px;
+    color: black;
+}
+
+img {
+    background-color: rgb(220, 137, 20);
+    border-radius: 50%;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border-radius: 10px;
+}
+
+iframe {
+    background-color: rgb(220, 137, 20);
+    border-radius: 10px;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: rgb(148, 96, 24);
+    color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }   
+    
+    iframe {
+        width: 210px;
+        height: 115px;
+        background-color: rgb(220, 137, 20);
+        border-radius: 10px;
+        color: black;
+    }
+
+    img {
+        width: 70px;
+        background-color: rgb(220, 137, 20);
+        border-radius: 50%;
+        color: black;
+    }
+
+    table {
+        width: 100px;
+        border: none;
+        background-color: rgb(243, 207, 159);
+        color: black;
+        border-radius: 10px;
+    }
+}
